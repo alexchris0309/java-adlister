@@ -13,6 +13,18 @@
 <%--</head>--%>
 <%--<body>--%>
 
+<%--java example--%>
+<%--<% --%>
+<%--    String username=request.getParameter("username");--%>
+<%--    String password=request.getParameter("password");--%>
+<%--    --%>
+<%--    if(username.equalsIgnoreCase("admin")&& password.equals("password")){--%>
+<%--    response.sendRedirect("/profile.jsp");--%>
+<%--    }--%>
+<%--    %>--%>
+
+
+
 <form action="./login.jsp" method="post">
     <label for="userId">Username</label>
     <input id="userId" type="text" name="username" placeholder="enter username"/>

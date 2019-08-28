@@ -27,7 +27,7 @@
         </div>
         <div class="form-group">
             <label for="email">Insert Email</label>
-            <input id="email" name="email" class="form-control" type="password">
+            <input id="email" name="email" class="form-control" type="text">
         </div>
         <input type="submit" class="btn btn-primary btn-block" value="Log In">
     </form>
